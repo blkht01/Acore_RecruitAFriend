@@ -563,7 +563,7 @@ local function RAF_login(event, player)
 
     -- display login message
     if Config.displayLoginMessage == 1 then
-        player:SendBroadcastMessage("This server features a Recruit-a-friend module. Type .raf for help.")
+        player:SendBroadcastMessage("This server features |cff00ff11Recruit-a-Friend|r module. Type .raf for help.")
     end
 
     RAF_lastIP[accountId] = player:GetPlayerIP()
